@@ -1,0 +1,17 @@
+header{
+    background-image: url("../images/header.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    width: auto;
+    height: 300px;
+    font-family: cursive,arial,sans-serif; 
+    font-size: 30px;  
+}
+.mainTitle{
+    position: absolute; top: 95px; left: 500px;
+
+}
+
+
+
+@media all (min-width: 480px max-width: 1400px )
