@@ -4,13 +4,15 @@ header{
     background-attachment: fixed;
     width: auto;
     height: 300px;
-    font-family: cursive,arial,sans-serif; 
-    font-size: 30px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+    font-size: 200%;  
+    text-align: center;   
 }
-.mainTitle{
-    position: absolute; top: 95px; left: 500px;
 
-}
+    
+    
+
+
 
 
 
