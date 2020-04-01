@@ -17,29 +17,27 @@
         <header><!--balise Header, en tête de notre page, qui comprendra notre image et notre titre,nos style css sont tous appliqués ici.-->
                 <h1>Voyages & Co</h1> <!--titre de premier niveau-->      
         </header>
+
  <!--menu de navigation Exercice 2-->
         
-        
-    <nav>
-            <ul id="menu">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Contact</a></li>
-               
+        <nav> <!--balise de navigation-->
+           <ul>
+               <li><a href="#home" >Accueil</a></li>
+               <li><a href="#destination">Destination</a></li>
+               <li><a href="#reservation">Reservations</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <li>
+                   <form action="#" method="POST">
+                       <input type="text" name="search" id="search" placeholder="Rechercher">
+                       <input type="submit" name="searchButton" id="searchButton" value="Rechercher">
+                   </form>
+               </li>
            </ul>
-           <form class="navbar navbar-right">
-            <input type="search" id="site-search" name="q"aria-label="Search through site content"> <!--champ de recherche et bouton rechercher-->
-            <button>Rechercher</button>
-
-           </form>
-
-        
-    </nav>
+        </nav>
+    
 
 
-
-        <!--Exercice 3-->
+<!--Exercice 3-->
         <div>
              <p>Nous sommes heureux de vous accueillir dans notre agence en ligne.
                 Plusieurs milliers d'offres de voyages vers plus de 150 pays vous y attendent.
