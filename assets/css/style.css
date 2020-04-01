@@ -8,6 +8,12 @@ header{
     font-size: 40px; /**définit la taille de notre police**/    
 }
 
+p{
+    background-color: burlywood;
+    background-size:  cover;
+    width: 800px;
+    height: 150px;
+}
     
     
 
