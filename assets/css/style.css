@@ -1,12 +1,16 @@
 header{
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/header.jpg"); /**définit notre image comme fond de notre header**/
     background-size: contain;
-    background-attachment: fixed;
-    width: auto;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
-    font-size: 200%;  
-    text-align: center;   
+    background-attachment: fixed; 
+    background-repeat: no-repeat; /**permet de ne pas répeter notre image**/
+    width: auto; /**définit la largeur de notre image **/
+    height: 300px; /**définit la hauteur de notre image**/
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; /**définit notre police**/
+    font-size: 200%; /**définit la taille de notre police**/ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
     
@@ -17,3 +21,5 @@ header{
 
 
 @media all (min-width: 480px max-width: 1400px )
+   
+
