@@ -21,15 +21,21 @@ a{
     color: #000; /**couleur du texte**/
 }
 /**style css exercice 3**/
-p{
+.p1{
     background-color: burlywood;
     background-size:  cover;
     width: 800px;
     height: 150px;
 }
     
+.conteneur {
+    display : flex;
+    justify-content : space-around;
+}
 
-
+.element1 {
+:url("../images/Egypte.jpg");
+}
 
 /**@media all (min-width: 480px max-width: 1400px )**/
    
