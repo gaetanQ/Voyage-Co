@@ -7,14 +7,6 @@ header{
     align-items: center;
     font-size: 40px; /**définit la taille de notre police**/    
 }
-
-p{
-    background-color: burlywood;
-    background-size:  cover;
-    width: 800px;
-    height: 150px;
-}
-    
     
 #fondmenu {
     width:100%;
@@ -44,6 +36,17 @@ text-align: center;
 text-shadow: 0 1px 0 #328ba7;
 }
 
+input {
+    margin: .4rem 0;
+}
+
+p{
+    background-color: burlywood;
+    background-size:  cover;
+    width: 800px;
+    height: 150px;
+}
+ 
 
 
 
