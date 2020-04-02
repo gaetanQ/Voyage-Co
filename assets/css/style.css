@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(248, 225, 195); ;
+}
+
 header{
     background-image: url("../images/header.jpg"); /**définit notre image comme fond de notre header**/
     background-size: cover;
@@ -34,41 +38,21 @@ a{
 
 /**style css exercice 4**/
 
-.conteneur {
-    display : flex;
-    justify-content : space-between;
-    font-size:20px;
+#blockLine{
+    display: flex;
+}
+article{
+    margin: 15px 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+}
+article p{
     text-align: justify;
 }
-
-article {
-    padding:20px;
-    margin:20px;
-}
-
-h2 {
-    text-align: center;
-}
-
-img {
-    width: 180px;
-    height: 120px;
-}
-
-.image1{
-    background-image: url(../images/Egypte.jpg);
-    display:flex;
-    justify-content: center;
-}
-.image2{
-    background-image: url(../images/Guadeloupe.jpg);
-    display:flex;
-    justify-content: center;
-}
-.image3 {
-    background-image: url(../images/Mexique.jpg);
-    display:flex;
-    justify-content: center;
+img{
+    width: 50%;
 }
 /**@media all (min-width: 480px max-width: 1400px )**/
    
