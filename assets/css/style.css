@@ -21,13 +21,18 @@ a{
     color: #000; /**couleur du texte**/
 }
 /**style css exercice 3**/
-.p1{
-    background-color: burlywood;
-    background-size:  cover;
-    width: 800px;
-    height: 150px;
+
+/** #permet de cibler un element id**/
+#presentation{
+    margin: 70px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: justify;
+    background-color:rgb(238, 198, 145) ;
+
 }
-    
+
+
 .conteneur {
     display : flex;
     justify-content : space-around;
