@@ -36,12 +36,39 @@ a{
 
 .conteneur {
     display : flex;
-    justify-content : space-around;
+    justify-content : space-between;
+    font-size:20px;
+    text-align: justify;
 }
 
-.element1 {
-:url("../images/Egypte.jpg");
+article {
+    padding:20px;
+    margin:20px;
 }
 
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 180px;
+    height: 120px;
+}
+
+.image1{
+    background-image: url(../images/Egypte.jpg);
+    display:flex;
+    justify-content: center;
+}
+.image2{
+    background-image: url(../images/Guadeloupe.jpg);
+    display:flex;
+    justify-content: center;
+}
+.image3 {
+    background-image: url(../images/Mexique.jpg);
+    display:flex;
+    justify-content: center;
+}
 /**@media all (min-width: 480px max-width: 1400px )**/
    
